@@ -2,7 +2,7 @@
 
 This repository contains binary distribution of AnswerDash iOS SDK released by [AnswerDash](http://www.answerdash.com).
 
-If you have any questions, comments, or issues related to any products distributed via this repository then please contact the team by emailing [thisguy@answerdash.com](mailto:support@answerdash.com).
+If you have any questions, comments, or issues related to any products distributed via this repository then please contact the team by emailing [support@answerdash.com](mailto:support@answerdash.com).
 
 ## Requirements
 
@@ -40,7 +40,8 @@ These instructions will setup your local CocoaPods environment and import Answer
 If you wish to install AnswerDashSDK directly into your application via the binary framework, Download `AnswerDashSDK.framework` from this repository and add it to your application:
 
 1. Drag and drop the framework onto your project, instructing Xcode to copy items into your destination group's folder.
-4. TODO: Add copy phase and strip frameworks details (check example at https://support.layer.com/hc/en-us/articles/204256740-Can-I-use-LayerKit-without-CocoaPods-)
+2. In your project settings, make sure `AnswerDashSDK.framework` is added to both 'Linked Frameworks and Libraries' and 'Embedded Binaries'. 
+3. Apple will not allow uploading apps with unwanted architectures. If you don't have a build phase added to strip unwanted architectures from frameworks, follow [this guide](http://ikennd.ac/blog/2015/02/stripping-unwanted-architectures-from-dynamic-libraries-in-xcode/) to do so.
 
 ## Usage
 ##### Importing the library
@@ -77,7 +78,7 @@ Objective-C:
 ```
 
 ##### Adding AnswerDash Button
-Programatically,
+*Programatically*,
 
 Swift:
 ```swift
@@ -91,7 +92,7 @@ AnswerDashButton *helpButton = [AnswerDashButton new];
 [view addSubview:helpButton];
 //Add layout constraint as required to position the button.
 ```
-Using Interface Builder,
+*Using Interface Builder,*
 
 Add a `UIView` to your interface XIB/Storyboard. Change the custom class to `AnswerDashButton` and add required layout constraints to position the button. *DO NOT* add width and height constraints.
 
@@ -108,9 +109,36 @@ Objective-C:
 [myTableView addAnswerDashButton];
 ```
 
+You can call `removeAnswerDashButton` method to remove the button if required.
+
+##### Styling
+
+You can customize the appearance of the default AnswerDash button using following properties.
+
+```
+myAnswerDashButton.borderColor
+myAnswerDashButton.fillColor
+myAnswerDashButton.iconColor
+```
+
+##### Using your own button implementations
+
+If you want to trigger the AnswerDash popup using your own button or other interaction, call methods below directly to show and hide the popup.
+
+Swift:
+```swift
+AnswerDashSDK.show() //Opens the AnswerDash popup
+AnswerDashSDK.hide() //Close the AnswerDash popup
+```
+Objective-C:
+```objc
+[AnswerDashSDK show]; //Opens the AnswerDash popup
+[AnswerDashSDK hide]; //Close the AnswerDash popup
+```
+
 ## Contact
 
-You can reach the Layer team at any time by emailing [support@answerdash.com](mailto:support@answerdash.com).
+You can reach the AnswerDash team at any time by emailing [support@answerdash.com](mailto:support@answerdash.com).
 
 ## License
 

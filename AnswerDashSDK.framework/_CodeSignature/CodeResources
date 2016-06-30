@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		XO9v+XkBHqgQvdVMkQkeDsUNp6M=
+		bIbqLKu3CaY+pIbH6Keds/BUw2g=
 		</data>
 		<key>Headers/AnswerDashSDK-Swift.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		Q0hQsdmuIF0os25MmB3dD/m98pc=
+		/u5+MYtpWJH9lckbO/3kN5Xv9EE=
 		</data>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		aOWctSUoOqmhu3PLj3fHfP2npi0=
+		n7ZrH7wZ8EtARJSFMOv3yosrfgY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>WebViewController.nib</key>
 		<data>
-		SAziAgGCBBQ/dh4isH1f4MXm2+s=
+		yJioRXaqppLTzuvK4I7nepFHhKM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XO9v+XkBHqgQvdVMkQkeDsUNp6M=
+			bIbqLKu3CaY+pIbH6Keds/BUw2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			hgs/n6M+sMLLhB3PAN7ig+KHv5AeVDhXw3BSuu1upxA=
+			kY6YIrYQOlROT77fPnBNOfFUAPxqISvlx3TbMryN2sc=
 			</data>
 		</dict>
 		<key>Headers/AnswerDashSDK-Swift.h</key>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q0hQsdmuIF0os25MmB3dD/m98pc=
+			/u5+MYtpWJH9lckbO/3kN5Xv9EE=
 			</data>
 			<key>hash2</key>
 			<data>
-			NgjXcAHY2ZZJxfm/kJcE/sxvD9UJImVHM/DEXWiNBMY=
+			EDNK04hD8O0lOL9harM2flJNgWsaVZixcQo+TBQS2+s=
 			</data>
 		</dict>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm64.swiftdoc</key>
@@ -117,11 +117,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aOWctSUoOqmhu3PLj3fHfP2npi0=
+			n7ZrH7wZ8EtARJSFMOv3yosrfgY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0MJiGachgOR0usJYXSOEGDXWVdGglHAyXlnFXb5Ww90=
+			D95gW6Z+gfwpDUZZj8TR/uo9VajNG6vhjnYzQ63qF38=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -139,11 +139,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SAziAgGCBBQ/dh4isH1f4MXm2+s=
+			yJioRXaqppLTzuvK4I7nepFHhKM=
 			</data>
 			<key>hash2</key>
 			<data>
-			qgf7vSOK/zdUyNo/z7LKn362Uh8QIjvG+Am5TUxOwNw=
+			g3PsS2OmyW2rM1WP7zX08tuUgZEmUhThwZc7Rx4Kwxs=
 			</data>
 		</dict>
 	</dict>
