@@ -98,11 +98,11 @@ Add a `UIView` to your interface XIB/Storyboard. Change the custom class to `Ans
 
 ##### Adding a floating AnswerDash button
 
-If you need a default floating help button for your UITableView, UICollectionView or any other view UIScrollView based control, use this convenient method. AnswerDashSDK will properly position the button on the bottom right corner fo the view and make it sticky while scrolling.
+If you need a default floating help button for your UITableView, UICollectionView or any other UIScrollView based control, use this convenient method. AnswerDashSDK will properly position the button on the bottom right corner of the view and make it sticky when scrolling.
 
 Swift:
 ```swift
-myTableView.addAnswerDashButton())
+myTableView.addAnswerDashButton()
 ```
 Objective-C:
 ```objc
