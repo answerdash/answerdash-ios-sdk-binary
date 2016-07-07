@@ -84,13 +84,13 @@ Swift:
 ```swift
 let helpButton = AnswerDashButton()
 view.addSubview(helpButton)
-//Add layout constraint as required to position the button.
+//Add layout constraints as required to position the button.
 ```
 Objective C:
 ```objc
 AnswerDashButton *helpButton = [AnswerDashButton new];
 [view addSubview:helpButton];
-//Add layout constraint as required to position the button.
+//Add layout constraints as required to position the button.
 ```
 *Using Interface Builder,*
 
@@ -98,7 +98,7 @@ Add a `UIView` to your interface XIB/Storyboard. Change the custom class to `Ans
 
 ##### Adding a floating AnswerDash button
 
-If you need a default floating help button for your UITableView, UICollectionView or any other UIScrollView based control, use this convenient method. AnswerDashSDK will properly position the button on the bottom right corner of the view and make it sticky when scrolling.
+If you need a default floating help button for your `UITableView`, `UICollectionView` or any other `UIScrollView` based control, use this convenient method. AnswerDashSDK will properly position the button on the bottom right corner of the view and make it sticky when scrolling.
 
 Swift:
 ```swift

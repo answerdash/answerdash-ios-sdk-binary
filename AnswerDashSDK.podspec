@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'AnswerDashSDK'
-  s.version = '0.1.0'
+  s.version = '0.2.0'
   s.summary = 'AnswerDashSDK to integrate AnswerDash with iOS applications'
   s.license = 'Commercial'
   s.authors = {"AnswerDash"=>"support@answerdash.com"}
