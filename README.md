@@ -21,10 +21,22 @@ $ sudo gem install cocoapods
 $ pod setup
 ```
 
-Now create a `Podfile` in the root of your project directory and add the following:
+Now run the following in the root of your project directory:
+
+```sh
+$ pod init
+```
+
+This creates a `Podfile`, to integrate the AnswerDashSDK add `pod AnswerDashSDK` to the file. The file should now look like this: 
 
 ```ruby
-pod 'AnswerDashSDK'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'AnswerDashSDK'
+end
 ```
 
 Complete the installation by executing:
@@ -142,4 +154,4 @@ You can reach the AnswerDash team at any time by emailing [support@answerdash.co
 
 ## License
 
-AnswerDashSDK is licensed under the [AnswerDash SDK License](https://github.com/answerdash/releases-ios/LICENSE.md).
+AnswerDashSDK is licensed under the [AnswerDash SDK License](https://github.com/answerdash/answerdash-ios-sdk-binary/blob/master/LICENSE.md).
