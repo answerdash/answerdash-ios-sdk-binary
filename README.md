@@ -27,7 +27,7 @@ Now run the following in the root of your project directory:
 $ pod init
 ```
 
-This creates a `Podfile`, to integrate the AnswerDashSDK add `pod AnswerDashSDK` to the file. The file should now look like this: 
+This creates a `Podfile`, to integrate the AnswerDashSDK add `pod AnswerDashSDK` to the file. It should now look similar to this: 
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
