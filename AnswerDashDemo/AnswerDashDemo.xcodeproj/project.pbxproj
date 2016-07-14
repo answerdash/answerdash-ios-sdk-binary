@@ -11,26 +11,10 @@
 		08114B171D1439B70052EE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08114B151D1439B70052EE20 /* Main.storyboard */; };
 		08114B191D1439B70052EE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08114B181D1439B70052EE20 /* Assets.xcassets */; };
 		08114B1C1D1439B70052EE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08114B1A1D1439B70052EE20 /* LaunchScreen.storyboard */; };
-		08114B261D143A390052EE20 /* AnswerDashSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08114B231D1439CA0052EE20 /* AnswerDashSDK.framework */; };
-		08114B271D143A390052EE20 /* AnswerDashSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 08114B231D1439CA0052EE20 /* AnswerDashSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B47096FC1D1826C100B30EAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47096FB1D1826C100B30EAA /* HomeViewController.swift */; };
 		B47097C61D199CB900B30EAA /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47097C51D199CB900B30EAA /* ListTableViewController.swift */; };
 		BD611CB51D2BB9F3002C12FB /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD611CB41D2BB9F3002C12FB /* CustomViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		08114B281D143A390052EE20 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				08114B271D143A390052EE20 /* AnswerDashSDK.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		08114B0C1D1439B70052EE20 /* AnswerDashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnswerDashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,7 +23,8 @@
 		08114B181D1439B70052EE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08114B1B1D1439B70052EE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08114B1D1D1439B70052EE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08114B231D1439CA0052EE20 /* AnswerDashSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnswerDashSDK.framework; path = ../AnswerDashSDK.framework; sourceTree = "<group>"; };
+		38BAEC02A4FEE1667423B6BE /* Pods-AnswerDashDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnswerDashDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnswerDashDemo/Pods-AnswerDashDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5144A797768158CD12DA7E56 /* Pods-AnswerDashDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnswerDashDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnswerDashDemo/Pods-AnswerDashDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B47096FB1D1826C100B30EAA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B47097C51D199CB900B30EAA /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		BD611CB41D2BB9F3002C12FB /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08114B261D143A390052EE20 /* AnswerDashSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +47,7 @@
 				08114B0E1D1439B70052EE20 /* AnswerDashDemo */,
 				08114B251D1439F90052EE20 /* Frameworks */,
 				08114B0D1D1439B70052EE20 /* Products */,
+				3AE039F4231EA3838D6F6F4F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,9 +77,17 @@
 		08114B251D1439F90052EE20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08114B231D1439CA0052EE20 /* AnswerDashSDK.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AE039F4231EA3838D6F6F4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5144A797768158CD12DA7E56 /* Pods-AnswerDashDemo.debug.xcconfig */,
+				38BAEC02A4FEE1667423B6BE /* Pods-AnswerDashDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +97,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08114B201D1439B70052EE20 /* Build configuration list for PBXNativeTarget "AnswerDashDemo" */;
 			buildPhases = (
+				62BCD2CDE82DFA78839777E0 /* 📦 Check Pods Manifest.lock */,
 				08114B081D1439B70052EE20 /* Sources */,
 				08114B091D1439B70052EE20 /* Frameworks */,
 				08114B0A1D1439B70052EE20 /* Resources */,
-				08114B281D143A390052EE20 /* Embed Frameworks */,
+				EAC05187D616DC6BC44B6F9F /* 📦 Embed Pods Frameworks */,
+				5E92C22555F0A0C6B0326ED1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E92C22555F0A0C6B0326ED1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnswerDashDemo/Pods-AnswerDashDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62BCD2CDE82DFA78839777E0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC05187D616DC6BC44B6F9F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnswerDashDemo/Pods-AnswerDashDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08114B081D1439B70052EE20 /* Sources */ = {
@@ -285,9 +328,10 @@
 		};
 		08114B211D1439B70052EE20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5144A797768158CD12DA7E56 /* Pods-AnswerDashDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "${SRCROOT}/../";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AnswerDashDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -298,9 +342,10 @@
 		};
 		08114B221D1439B70052EE20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38BAEC02A4FEE1667423B6BE /* Pods-AnswerDashDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "${SRCROOT}/../";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AnswerDashDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
