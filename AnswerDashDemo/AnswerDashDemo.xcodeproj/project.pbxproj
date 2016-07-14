@@ -14,6 +14,7 @@
 		B47096FC1D1826C100B30EAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47096FB1D1826C100B30EAA /* HomeViewController.swift */; };
 		B47097C61D199CB900B30EAA /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47097C51D199CB900B30EAA /* ListTableViewController.swift */; };
 		BD611CB51D2BB9F3002C12FB /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD611CB41D2BB9F3002C12FB /* CustomViewController.swift */; };
+		DC02EDD08312A9258DFD5838 /* Pods_AnswerDashDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9455F86C1CEAE95776CFC339 /* Pods_AnswerDashDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		08114B1D1D1439B70052EE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38BAEC02A4FEE1667423B6BE /* Pods-AnswerDashDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnswerDashDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnswerDashDemo/Pods-AnswerDashDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5144A797768158CD12DA7E56 /* Pods-AnswerDashDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnswerDashDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnswerDashDemo/Pods-AnswerDashDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9455F86C1CEAE95776CFC339 /* Pods_AnswerDashDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnswerDashDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47096FB1D1826C100B30EAA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B47097C51D199CB900B30EAA /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		BD611CB41D2BB9F3002C12FB /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC02EDD08312A9258DFD5838 /* Pods_AnswerDashDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		08114B251D1439F90052EE20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9455F86C1CEAE95776CFC339 /* Pods_AnswerDashDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
