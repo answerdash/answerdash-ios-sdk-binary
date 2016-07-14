@@ -121,7 +121,9 @@ SWIFT_CLASS("_TtC13AnswerDashSDK10AnswerDash")
 
 /// Changes the base URL.\Warning 
 ///
-/// Use only for development!
+/// Use only for development!\Requires 
+///
+/// Enter the URL in the following format: https://website.com/ or https://website.com/somePath
 + (void)_dangerouslySetBaseUrl:(NSString * _Nonnull)url;
 @end
 
@@ -134,6 +136,7 @@ SWIFT_CLASS("_TtC13AnswerDashSDK16AnswerDashButton")
 @property (nonatomic, strong) UIColor * _Nullable fillColor;
 @property (nonatomic, strong) UIColor * _Nullable iconColor;
 @property (nonatomic) BOOL shadowVisible;
+@property (nonatomic, getter=isHighlighted) BOOL highlighted;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)awakeFromNib;
 - (CGSize)intrinsicContentSize;

@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		LDzKLALFvR94d3CZkNUCMjThl70=
+		6LJykBbWfOHKLEBvipXnA2CxYA0=
 		</data>
 		<key>Headers/AnswerDashSDK-Swift.h</key>
 		<data>
-		kj0RmEmm9TOGmPO7I7cwMfy0Cog=
+		CjzganKbE/0vh8aFx0ZOal9ztE4=
 		</data>
 		<key>Headers/AnswerDashSDK.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		55PNNQG4AlUF0YysBmfBPRLYPqw=
+		941Uq2TmDOtRz/KH3kPkE+MRH4s=
 		</data>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		C17HR5MC+gAMWFYw7tLLLMfR4a0=
+		WIFEmOVZuDAghX2IlpZRMu7/ls4=
 		</data>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		oxoPfB4IbLg6q/GiXaad0LKpwfc=
+		0aseH4rxPHtIkiLazT0W4LCkae0=
 		</data>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		ve8jspq7Dzo6lfxArjuEOgXKmcY=
+		5NrDzNbr7vgAac0/Orb5hM2EY4Y=
 		</data>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		/dAQeH2MER5HQejXHIBy4k/Zvnc=
+		EfvtmLr0q5Jbmdz7v/tG4Hw6u3Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>WebViewController.nib</key>
 		<data>
-		JwNp+jF02MVoAcq37AVcWFcF7Mg=
+		kDaltWzPidTmEhFhmAEPNzk2UX4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,22 +51,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LDzKLALFvR94d3CZkNUCMjThl70=
+			6LJykBbWfOHKLEBvipXnA2CxYA0=
 			</data>
 			<key>hash2</key>
 			<data>
-			9JO4mscAlLtfQW3lHnbr17umjHqlaLpTXRUZHPBTI2w=
+			LUiA00j0rdqNOxgTfZf2WuZUyWRV/AB35QW97046alQ=
 			</data>
 		</dict>
 		<key>Headers/AnswerDashSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kj0RmEmm9TOGmPO7I7cwMfy0Cog=
+			CjzganKbE/0vh8aFx0ZOal9ztE4=
 			</data>
 			<key>hash2</key>
 			<data>
-			rINsnyynbZhn60FjePP7EMlTHoBdntzhQD2g5hPSFqo=
+			9/MAZLme7Ew5rOavhUjisjyJjgFIzeVPQ2VdiX2ci9U=
 			</data>
 		</dict>
 		<key>Headers/AnswerDashSDK.h</key>
@@ -84,44 +84,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C17HR5MC+gAMWFYw7tLLLMfR4a0=
+			WIFEmOVZuDAghX2IlpZRMu7/ls4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y8ME99lJpK5srGZ2Et6vZsfKKk0LRrgZCymAGCLeoVI=
+			AMmC2kQe5w9Ks7mLnVDkUiGNkMzNqd6ry6YVI4W19Ug=
 			</data>
 		</dict>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oxoPfB4IbLg6q/GiXaad0LKpwfc=
+			0aseH4rxPHtIkiLazT0W4LCkae0=
 			</data>
 			<key>hash2</key>
 			<data>
-			XkZbt6/Ny0y+DbmyIUrib5LHOBP7PxAiQc4AKZhzm8c=
+			BgHrfb1IcKwpyAaE283B8llNwAZV6BG+Ak0KfUrnhf0=
 			</data>
 		</dict>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ve8jspq7Dzo6lfxArjuEOgXKmcY=
+			5NrDzNbr7vgAac0/Orb5hM2EY4Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ma2SYNLtdBlD+bZNTgNkoWVnRAUNBcKGuVHLVJirme4=
+			ymjDYyJlvmBuKeEKhTBI4gcUo4Fvtd+TufAhfI/HVDs=
 			</data>
 		</dict>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/dAQeH2MER5HQejXHIBy4k/Zvnc=
+			EfvtmLr0q5Jbmdz7v/tG4Hw6u3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			wIkb8WNezt77I1etoFh6zdwruG+NkP+CZ9eJFWJIqgk=
+			jizVria5VU3pR1d7ZTwM9d4p8+V6BVYM4IbRxsQoo40=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -139,11 +139,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JwNp+jF02MVoAcq37AVcWFcF7Mg=
+			kDaltWzPidTmEhFhmAEPNzk2UX4=
 			</data>
 			<key>hash2</key>
 			<data>
-			etTb6deVfZHPqCHpgCU6t1WKYMDFGa4u3dpVDeLwknA=
+			ijtb1mPj7iU+om4EiG8RFBug47YbGbMPcbJYfS+GdjY=
 			</data>
 		</dict>
 	</dict>

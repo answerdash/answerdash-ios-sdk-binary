@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         applyGlobalStyle()
 
         // Initialize AnswerDash SDK
-        AnswerDash.initializeWithSiteID("1")
+        AnswerDash.initializeWithSiteID("1061")
 
         return true
     }
