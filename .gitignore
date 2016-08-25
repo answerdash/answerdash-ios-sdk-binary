@@ -1,1 +1,6 @@
+*/*/xcuserdata/
+*/*/*/xcuserdata/
+*/DerivedData/
+*.gitignore
+*.DS_Store
 /.project
