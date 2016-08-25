@@ -1,6 +1,11 @@
 */*/xcuserdata/
+*/AnswerDashDemo.xcworkspace/
+
 */*/*/xcuserdata/
 */DerivedData/
+*/Pods/
+*/Podfile.lock
+
 *.gitignore
 *.DS_Store
 /.project
