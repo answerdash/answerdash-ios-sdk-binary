@@ -114,11 +114,11 @@ If you need a default floating help button for your `UITableView`, `UICollection
 
 Swift:
 ```swift
-myTableView.addAnswerDashButton()
+tableView.addAnswerDashButton()
 ```
 Objective-C:
 ```objc
-[myTableView addAnswerDashButton];
+[tableView addAnswerDashButton];
 ```
 
 You can call `removeAnswerDashButton` method to remove the button if required.
