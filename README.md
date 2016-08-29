@@ -94,14 +94,14 @@ Objective-C:
 
 Swift:
 ```swift
-let helpButton = AnswerDashButton()
-view.addSubview(helpButton)
+let myAnswerDashButton = AnswerDashButton()
+view.addSubview(myAnswerDashButton)
 //Add layout constraints as required to position the button.
 ```
 Objective C:
 ```objc
-AnswerDashButton *helpButton = [AnswerDashButton new];
-[view addSubview:helpButton];
+AnswerDashButton *myAnswerDashButton = [AnswerDashButton new];
+[view addSubview:myAnswerDashButton];
 //Add layout constraints as required to position the button.
 ```
 *Using Interface Builder,*
