@@ -49,7 +49,7 @@ These instructions will setup your local CocoaPods environment and import Answer
 
 #### Framework Installation
 
-If you wish to install AnswerDashSDK directly into your application via the binary framework, [Download `AnswerDashSDK.framework`](https://repo.answerdash.com/releases/com/answerdash/ios/) and add it to your application:
+If you wish to install AnswerDashSDK directly into your application via the binary framework, [download the latest `AnswerDashSDK.tgz`](https://repo.answerdash.com/releases/com/answerdash/ios/), extract `AnswerDashSDK.framework` and add it to your application with the following steps:
 
 1. Drag and drop the framework onto your project, instructing Xcode to copy items into your destination group's folder.
 2. In your project settings, make sure `AnswerDashSDK.framework` is added to both 'Linked Frameworks and Libraries' and 'Embedded Binaries'. 
