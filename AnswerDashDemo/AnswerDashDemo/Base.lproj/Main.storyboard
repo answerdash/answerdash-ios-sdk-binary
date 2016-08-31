@@ -89,10 +89,10 @@
                                         <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                        <color key="value" red="0.0" green="0.6588235294117647" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.0" green="0.6588235294117647" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.0" green="0.6588235294117647" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.0" green="0.6588235294117647" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
