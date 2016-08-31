@@ -66,7 +66,7 @@ Objective-C:
 #import <AnswerDashSDK/AnswerDashSDK.h>
 ```
 ##### Initialization
-AnswerDashSDK should be initialized at the application startup with a valid site ID. Add the following line to your `ApplicationDidFinishLaunchingWithOptions` delegate method.
+AnswerDashSDK should be initialized at the application startup with a valid site ID. Add the following line to your `application:didFinishLaunchingWithOptions:` delegate method.
 
 Swift:
 ```swift
