@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [AnswerDash setAppState:@"mobileapp"];
     AnswerDashButton *myAnswerDashButton = [AnswerDashButton new];
     myAnswerDashButton.translatesAutoresizingMaskIntoConstraints = NO;
 

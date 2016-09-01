@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [AnswerDash setAppState:@"mobileapp"];
+    [AnswerDash setAppState:@"testappstate"];
     [self.tableView addAnswerDashButton];
 
     self.edgesForExtendedLayout = UIRectEdgeNone;
