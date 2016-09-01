@@ -1,0 +1,10 @@
+framework module AnswerDashSDK {
+  umbrella header "AnswerDashSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module AnswerDashSDK.Swift {
+    header "AnswerDashSDK-Swift.h"
+}
