@@ -1,8 +1,7 @@
-*/*/xcuserdata/
 */AnswerDashDemo.xcworkspace/
 
-*/*/*/xcuserdata/
-*/DerivedData/
+*xcuserdata
+*DerivedData/
 */Pods/
 */Podfile.lock
 
