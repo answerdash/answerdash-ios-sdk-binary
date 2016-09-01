@@ -101,7 +101,7 @@ view.addSubview(myAnswerDashButton)
 Objective C:
 ```objc
 AnswerDashButton *myAnswerDashButton = [AnswerDashButton new];
-[view addSubview:myAnswerDashButton];
+[self.view addSubview:myAnswerDashButton];
 //Add layout constraints as required to position the button.
 ```
 *Using Interface Builder,*
@@ -118,7 +118,7 @@ tableView.addAnswerDashButton()
 ```
 Objective-C:
 ```objc
-[tableView addAnswerDashButton];
+[self.tableView addAnswerDashButton];
 ```
 
 You can call `removeAnswerDashButton` method to remove the button if required.
