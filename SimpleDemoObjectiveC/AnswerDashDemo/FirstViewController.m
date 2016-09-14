@@ -30,4 +30,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+    [self.tableView removeAnswerDashButton];
+}
+
 @end
