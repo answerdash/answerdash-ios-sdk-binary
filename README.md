@@ -121,7 +121,20 @@ Objective-C:
 [self.tableView addAnswerDashButton];
 ```
 
-You can call `removeAnswerDashButton` method to remove the button if required.
+And **make sure** to call `removeAnswerDashButton` method when the view controller is deallocated.
+
+Swift:
+```swift
+deinit {
+  tableView.removeAnswerDashButton()
+}
+```
+Objective-C:
+```objc
+- (void)dealloc {
+  [self.tableView removeAnswerDashButton];
+}
+```
 
 ##### Styling
 
