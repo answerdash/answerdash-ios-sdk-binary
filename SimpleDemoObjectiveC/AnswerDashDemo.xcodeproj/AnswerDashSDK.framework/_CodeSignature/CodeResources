@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		DkskGcdrDPxeMI10iBsS+6DZPbc=
+		/ukFBWfHMW8KiJVMoWphErM+T6w=
 		</data>
 		<key>Headers/AnswerDashSDK-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+YkYx0UtjTmHKJvTEgz2Oy1+W5c=
+		I7xWPiAqFuoR6ePFap5vn1fl5ac=
 		</data>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		KmGtwVvUd/hgV0CahkzgBFCPNKs=
+		lmVcxjD2bRebN/8etQkD8PHErqQ=
 		</data>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		QUqQHl/g2ehNOIsd63M0Z9DiBYQ=
+		F1zs1dDKILhUkKMbMG2Srlz5EYM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>WebViewController.nib</key>
 		<data>
-		3+a06sWym4fHeLK4EChHLVgVVy0=
+		Oy9GjGvORCPKHPxL37AYDLk1Iqk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DkskGcdrDPxeMI10iBsS+6DZPbc=
+			/ukFBWfHMW8KiJVMoWphErM+T6w=
 			</data>
 			<key>hash2</key>
 			<data>
-			+9+7XdPikMn7omRcWI/uno1WpNWEphaxTr4SW6iBgkw=
+			Blb665c7MKfqEvkK0mMuuLqHVw7/52NEtAP2H4fmHBM=
 			</data>
 		</dict>
 		<key>Headers/AnswerDashSDK-Swift.h</key>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KmGtwVvUd/hgV0CahkzgBFCPNKs=
+			lmVcxjD2bRebN/8etQkD8PHErqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			HQHm11FcrCwdDIUBHFvRzyc51wApxjEmLYvMDt3Ahxs=
+			cQ4P0jmLIe9OITYngG1sL81CLKl/D2xGphpxTyqeolw=
 			</data>
 		</dict>
 		<key>Modules/AnswerDashSDK.swiftmodule/arm64.swiftdoc</key>
@@ -117,11 +117,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QUqQHl/g2ehNOIsd63M0Z9DiBYQ=
+			F1zs1dDKILhUkKMbMG2Srlz5EYM=
 			</data>
 			<key>hash2</key>
 			<data>
-			8MTtw3aDfy24lSI+e46ZGQ6agszEZ8rNmETFQzdJp2w=
+			7/8fO7KHjtBDlZmVCWERHzzWsO56bhpHyQvWLeKKdVs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -139,11 +139,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3+a06sWym4fHeLK4EChHLVgVVy0=
+			Oy9GjGvORCPKHPxL37AYDLk1Iqk=
 			</data>
 			<key>hash2</key>
 			<data>
-			tw9JbRK5Q+am3jnVUmefZigKn2SqBrSh9Gp/95UiFhc=
+			Wcg7xg0aeJ2mCsh9/jruLFJPGSbAuqVtTL5RbTfemC4=
 			</data>
 		</dict>
 	</dict>
