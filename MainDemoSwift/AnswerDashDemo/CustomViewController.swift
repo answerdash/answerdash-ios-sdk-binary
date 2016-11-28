@@ -21,7 +21,7 @@ class CustomViewController: UIViewController {
         styleButton()
     }
 
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
         AnswerDash.appState = "testappstate"
@@ -29,15 +29,15 @@ class CustomViewController: UIViewController {
 
     // MARK: - Style
 
-    private func styleButton() {
-        customButton.layer.cornerRadius = CGRectGetHeight(customButton.frame) / 2
+    fileprivate func styleButton() {
+        customButton.layer.cornerRadius = customButton.frame.height / 2
         customButton.layer.borderWidth = 1
-        customButton.layer.borderColor = customButton.tintColor.CGColor
+        customButton.layer.borderColor = customButton.tintColor.cgColor
     }
 
     // MARK: - Actions
 
-    @IBAction func didTapCustomButton(sender: AnyObject) {
+    @IBAction func didTapCustomButton(_ sender: AnyObject) {
 
         AnswerDash.show()
     }
