@@ -93,7 +93,7 @@ AnswerDashSDK should be initialized at the application startup with a valid site
 
 Swift:
 ```swift
-AnswerDash.initializeWithSiteID("YOUR-SITE-ID")
+AnswerDash.initialize(withSiteID: "YOUR-SITE-ID")
 ```
 Objective-C:
 ```objc
@@ -144,7 +144,20 @@ Objective-C:
 [self.tableView addAnswerDashButton];
 ```
 
-You can call `removeAnswerDashButton` method to remove the button if required.
+You can call `removeAnswerDashButton` method to remove the button if required. For example:
+
+Swift:
+```swift
+deinit {
+    tableView.removeAnswerDashButton()
+}
+```
+Objective-C:
+```objc
+- (void)dealloc {
+    [self.tableView removeAnswerDashButton];
+}
+```
 
 #### Styling
 
