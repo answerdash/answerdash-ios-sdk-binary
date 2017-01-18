@@ -29,7 +29,7 @@
             </objects>
             <point key="canvasLocation" x="564" y="-289"/>
         </scene>
-        <!--AnswerDash SDK-->
+        <!--Home-->
         <scene sceneID="cxh-MQ-d4A">
             <objects>
                 <viewController id="fIF-XL-rMg" customClass="HomeViewController" customModule="AnswerDashDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -69,7 +69,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="foB-qI-fev"/>
-                    <navigationItem key="navigationItem" title="AnswerDash SDK" id="V6K-It-W5j"/>
+                    <navigationItem key="navigationItem" id="V6K-It-W5j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VJr-dH-FYE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,10 +80,9 @@
             <objects>
                 <navigationController id="8XG-nn-f3W" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="5rk-gK-3Uo"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NUc-4O-8ee">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="NUc-4O-8ee">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.0" green="0.44705882349999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -97,7 +96,7 @@
             </objects>
             <point key="canvasLocation" x="-201" y="498"/>
         </scene>
-        <!--Floating Button-->
+        <!--List Table View Controller-->
         <scene sceneID="SaK-BO-bSW">
             <objects>
                 <tableViewController id="LU1-2x-wSu" customClass="ListTableViewController" customModule="AnswerDashDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -311,13 +310,13 @@
                             <outlet property="delegate" destination="LU1-2x-wSu" id="cBr-4P-1l0"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Floating Button" id="qIA-ZD-WfE"/>
+                    <navigationItem key="navigationItem" id="qIA-ZD-WfE"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="spl-pb-Y9N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="564" y="1247"/>
         </scene>
-        <!--Custom Button-->
+        <!--Custom View Controller-->
         <scene sceneID="3M7-4H-ctc">
             <objects>
                 <viewController id="dkl-y6-csV" customClass="CustomViewController" customModule="AnswerDashDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -452,7 +451,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Custom Button" id="Lvr-kB-9M8"/>
+                    <navigationItem key="navigationItem" id="Lvr-kB-9M8"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
@@ -468,10 +467,9 @@
             <objects>
                 <navigationController id="5wm-YF-Evk" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="List" image="list" id="u7m-zr-pkD"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4BH-yO-ikx">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="4BH-yO-ikx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.0" green="0.44705882349999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -490,10 +488,9 @@
             <objects>
                 <navigationController id="F85-2W-XGd" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Custom" image="custom" id="lmO-fP-aPf"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Q4c-hv-5cU">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Q4c-hv-5cU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.0" green="0.44705882349999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>

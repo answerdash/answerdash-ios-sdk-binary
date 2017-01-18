@@ -50,6 +50,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Style
 
     fileprivate func applyGlobalStyle() {
-        UINavigationBar.appearance().barStyle = .black
+        UINavigationBar.appearance().barStyle = .default
+        UINavigationBar.appearance().setBackgroundImage(UIImage(named: "navbar-portrait"),
+                                                        for: .default)
+        UINavigationBar.appearance().setBackgroundImage(UIImage(named: "navbar-landscape"),
+                                                        for: .compact)
     }
 }
