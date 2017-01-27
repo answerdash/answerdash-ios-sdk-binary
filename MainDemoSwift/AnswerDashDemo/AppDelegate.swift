@@ -51,9 +51,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     fileprivate func applyGlobalStyle() {
         UINavigationBar.appearance().barStyle = .default
-        UINavigationBar.appearance().setBackgroundImage(UIImage(named: "navbar-portrait"),
-                                                        for: .default)
-        UINavigationBar.appearance().setBackgroundImage(UIImage(named: "navbar-landscape"),
-                                                        for: .compact)
     }
 }

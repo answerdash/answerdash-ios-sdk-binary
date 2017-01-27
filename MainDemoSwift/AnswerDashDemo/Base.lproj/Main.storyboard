@@ -80,9 +80,12 @@
             <objects>
                 <navigationController id="8XG-nn-f3W" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="5rk-gK-3Uo"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="NUc-4O-8ee">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NUc-4O-8ee">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -467,9 +470,12 @@
             <objects>
                 <navigationController id="5wm-YF-Evk" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="List" image="list" id="u7m-zr-pkD"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="4BH-yO-ikx">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4BH-yO-ikx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -488,9 +494,12 @@
             <objects>
                 <navigationController id="F85-2W-XGd" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Custom" image="custom" id="lmO-fP-aPf"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Q4c-hv-5cU">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Q4c-hv-5cU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>

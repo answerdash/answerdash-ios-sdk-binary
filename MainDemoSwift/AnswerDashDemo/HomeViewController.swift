@@ -12,9 +12,15 @@ import AnswerDashSDK
 class HomeViewController: UIViewController {
     
     var background = UIImageView()
+    var titleView = UIImageView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        titleView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 44)
+        titleView.image = UIImage(named: "navbar-portrait")
+        titleView.contentMode = UIViewContentMode.center
+        self.navigationItem.titleView = titleView
         
         background.frame = self.view.frame
         background.image = UIImage(named: "home-background-portrait")
@@ -38,14 +44,21 @@ class HomeViewController: UIViewController {
     }
     
     func rotate() {
+        titleView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 44)
         background.frame = self.view.frame
         
         if(UIDeviceOrientationIsLandscape(UIDevice.current.orientation)) {
+            titleView.image = UIImage(named: "navbar-landscape")
+            self.navigationItem.titleView = titleView
+            
             background.image = UIImage(named: "home-background-landscape")
             self.view.sendSubview(toBack: background)
         }
         
         if(UIDeviceOrientationIsPortrait(UIDevice.current.orientation)) {
+            titleView.image = UIImage(named: "navbar-portrait")
+            self.navigationItem.titleView = titleView
+            
             background.image = UIImage(named: "home-background-portrait")
             self.view.sendSubview(toBack: background)
         }

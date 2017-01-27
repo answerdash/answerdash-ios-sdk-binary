@@ -11,12 +11,24 @@ import AnswerDashSDK
 
 class ListTableViewController: UITableViewController {
 
-    // MARK: - Lifecycle
+    var titleView = UIImageView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        titleView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 44)
+        titleView.image = UIImage(named: "navbar-portrait")
+        titleView.contentMode = UIViewContentMode.center
+        self.navigationItem.titleView = titleView
+        
         tableView.addAnswerDashButton()
+        
+        // get notification while rotating
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(ListTableViewController.rotate),
+                                               name: NSNotification.Name.UIDeviceOrientationDidChange,
+                                               object: nil
+        )
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -29,5 +41,19 @@ class ListTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    func rotate() {
+        titleView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 44)
+        
+        if(UIDeviceOrientationIsLandscape(UIDevice.current.orientation)) {
+            titleView.image = UIImage(named: "navbar-landscape")
+            self.navigationItem.titleView = titleView
+        }
+        
+        if(UIDeviceOrientationIsPortrait(UIDevice.current.orientation)) {
+            titleView.image = UIImage(named: "navbar-portrait")
+            self.navigationItem.titleView = titleView
+        }
     }
 }
