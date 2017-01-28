@@ -11,6 +11,7 @@
 		08114B171D1439B70052EE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08114B151D1439B70052EE20 /* Main.storyboard */; };
 		08114B191D1439B70052EE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08114B181D1439B70052EE20 /* Assets.xcassets */; };
 		08114B1C1D1439B70052EE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08114B1A1D1439B70052EE20 /* LaunchScreen.storyboard */; };
+		811BD75E1E3C499C00389AB0 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD75D1E3C499C00389AB0 /* Globals.swift */; };
 		8142AA0A1E312D680065F971 /* UINavigationBar+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8142AA091E312D680065F971 /* UINavigationBar+.swift */; };
 		B47096FC1D1826C100B30EAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47096FB1D1826C100B30EAA /* HomeViewController.swift */; };
 		B47097C61D199CB900B30EAA /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47097C51D199CB900B30EAA /* ListTableViewController.swift */; };
@@ -27,6 +28,7 @@
 		08114B1D1D1439B70052EE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38BAEC02A4FEE1667423B6BE /* Pods-AnswerDashDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnswerDashDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnswerDashDemo/Pods-AnswerDashDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5144A797768158CD12DA7E56 /* Pods-AnswerDashDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnswerDashDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnswerDashDemo/Pods-AnswerDashDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		811BD75D1E3C499C00389AB0 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = AnswerDashDemo/Helpers/Globals.swift; sourceTree = "<group>"; };
 		8142AA091E312D680065F971 /* UINavigationBar+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UINavigationBar+.swift"; path = "AnswerDashDemo/Helpers/UINavigationBar+.swift"; sourceTree = "<group>"; };
 		9455F86C1CEAE95776CFC339 /* Pods_AnswerDashDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnswerDashDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47096FB1D1826C100B30EAA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				8142AA091E312D680065F971 /* UINavigationBar+.swift */,
+				811BD75D1E3C499C00389AB0 /* Globals.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				B47097C61D199CB900B30EAA /* ListTableViewController.swift in Sources */,
 				BD611CB51D2BB9F3002C12FB /* CustomViewController.swift in Sources */,
+				811BD75E1E3C499C00389AB0 /* Globals.swift in Sources */,
 				08114B101D1439B70052EE20 /* AppDelegate.swift in Sources */,
 				8142AA0A1E312D680065F971 /* UINavigationBar+.swift in Sources */,
 				B47096FC1D1826C100B30EAA /* HomeViewController.swift in Sources */,

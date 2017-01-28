@@ -11,7 +11,8 @@ import UIKit
 extension UINavigationBar {
     open override func sizeThatFits(_ size: CGSize) -> CGSize {
         let width = UIScreen.main.bounds.width
-        let newSize = CGSize(width: width, height: 44)
+        let newSize = CGSize(width: width,
+                             height: Constants.navbarHeight)
         return newSize
     }
 }

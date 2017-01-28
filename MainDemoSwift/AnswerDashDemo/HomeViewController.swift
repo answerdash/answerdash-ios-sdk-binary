@@ -17,12 +17,18 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 44)
+        titleView.frame = CGRect(x: 0,
+                                 y: 0,
+                                 width: self.view.frame.size.width,
+                                 height: Constants.navbarHeight)
         titleView.image = UIImage(named: "navbar-portrait")
         titleView.contentMode = UIViewContentMode.center
         self.navigationItem.titleView = titleView
         
-        background.frame = self.view.frame
+        background.frame = CGRect(x: 0,
+                                  y: Constants.navbarHeight,
+                                  width: self.view.frame.size.width,
+                                  height: self.view.frame.size.height)
         background.image = UIImage(named: "home-background-portrait")
         background.contentMode = UIViewContentMode.scaleAspectFill
         background.clipsToBounds = true
@@ -44,13 +50,16 @@ class HomeViewController: UIViewController {
     }
     
     func rotate() {
-        titleView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 44)
-        background.frame = self.view.frame
+        titleView.frame = CGRect(x: 0,
+                                 y: 0,
+                                 width: self.view.frame.size.width,
+                                 height: Constants.navbarHeight)
         
         if(UIDeviceOrientationIsLandscape(UIDevice.current.orientation)) {
             titleView.image = UIImage(named: "navbar-landscape")
             self.navigationItem.titleView = titleView
             
+            background.frame = self.view.frame
             background.image = UIImage(named: "home-background-landscape")
             self.view.sendSubview(toBack: background)
         }
@@ -59,6 +68,10 @@ class HomeViewController: UIViewController {
             titleView.image = UIImage(named: "navbar-portrait")
             self.navigationItem.titleView = titleView
             
+            background.frame = CGRect(x: 0,
+                                      y: Constants.navbarHeight,
+                                      width: self.view.frame.size.width,
+                                      height: self.view.frame.size.height)
             background.image = UIImage(named: "home-background-portrait")
             self.view.sendSubview(toBack: background)
         }

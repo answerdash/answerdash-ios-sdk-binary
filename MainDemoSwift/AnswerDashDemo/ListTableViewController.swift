@@ -16,7 +16,10 @@ class ListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 44)
+        titleView.frame = CGRect(x: 0,
+                                 y: 0,
+                                 width: self.view.frame.size.width,
+                                 height: Constants.navbarHeight)
         titleView.image = UIImage(named: "navbar-portrait")
         titleView.contentMode = UIViewContentMode.center
         self.navigationItem.titleView = titleView
@@ -44,7 +47,10 @@ class ListTableViewController: UITableViewController {
     }
     
     func rotate() {
-        titleView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 44)
+        titleView.frame = CGRect(x: 0,
+                                 y: 0,
+                                 width: self.view.frame.size.width,
+                                 height: Constants.navbarHeight)
         
         if(UIDeviceOrientationIsLandscape(UIDevice.current.orientation)) {
             titleView.image = UIImage(named: "navbar-landscape")
