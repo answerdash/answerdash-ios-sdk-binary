@@ -11,8 +11,6 @@ import AnswerDashSDK
 
 class CustomViewController: UIViewController {
 
-    var titleView = UIImageView()
-    
     // MARK: - Outlets
 
     @IBOutlet weak var customButton: UIButton!
@@ -22,13 +20,7 @@ class CustomViewController: UIViewController {
     override func viewDidLoad() {
         styleButton()
         
-        titleView.frame = CGRect(x: 0,
-                                 y: 0,
-                                 width: self.view.frame.size.width,
-                                 height: Constants.navbarHeight)
-        titleView.image = UIImage(named: "navbar-portrait")
-        titleView.contentMode = UIViewContentMode.center
-        self.navigationItem.titleView = titleView
+        self.navigationItem.titleView = Utils.navbarRotate()
 
         // get notification while rotating
         NotificationCenter.default.addObserver(self,
@@ -60,19 +52,6 @@ class CustomViewController: UIViewController {
     }
     
     func rotate() {
-        titleView.frame = CGRect(x: 0,
-                                 y: 0,
-                                 width: self.view.frame.size.width,
-                                 height: Constants.navbarHeight)
-        
-        if(UIDeviceOrientationIsLandscape(UIDevice.current.orientation)) {
-            titleView.image = UIImage(named: "navbar-landscape")
-            self.navigationItem.titleView = titleView
-        }
-        
-        if(UIDeviceOrientationIsPortrait(UIDevice.current.orientation)) {
-            titleView.image = UIImage(named: "navbar-portrait")
-            self.navigationItem.titleView = titleView
-        }
+        self.navigationItem.titleView = Utils.navbarRotate()
     }
 }

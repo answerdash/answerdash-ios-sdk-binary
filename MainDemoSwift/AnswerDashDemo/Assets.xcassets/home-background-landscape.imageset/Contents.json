@@ -17,10 +17,12 @@
     },
     {
       "idiom" : "ipad",
+      "filename" : "home-background-landscape@4x.png",
       "scale" : "1x"
     },
     {
       "idiom" : "ipad",
+      "filename" : "home-background-landscape@5x.png",
       "scale" : "2x"
     }
   ],

@@ -17,10 +17,12 @@
     },
     {
       "idiom" : "ipad",
+      "filename" : "navbar-landscape@4x.png",
       "scale" : "1x"
     },
     {
       "idiom" : "ipad",
+      "filename" : "navbar-landscape@5x.png",
       "scale" : "2x"
     }
   ],

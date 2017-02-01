@@ -11,18 +11,10 @@ import AnswerDashSDK
 
 class ListTableViewController: UITableViewController {
 
-    var titleView = UIImageView()
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleView.frame = CGRect(x: 0,
-                                 y: 0,
-                                 width: self.view.frame.size.width,
-                                 height: Constants.navbarHeight)
-        titleView.image = UIImage(named: "navbar-portrait")
-        titleView.contentMode = UIViewContentMode.center
-        self.navigationItem.titleView = titleView
+        self.navigationItem.titleView = Utils.navbarRotate()
         
         tableView.addAnswerDashButton()
         
@@ -47,19 +39,6 @@ class ListTableViewController: UITableViewController {
     }
     
     func rotate() {
-        titleView.frame = CGRect(x: 0,
-                                 y: 0,
-                                 width: self.view.frame.size.width,
-                                 height: Constants.navbarHeight)
-        
-        if(UIDeviceOrientationIsLandscape(UIDevice.current.orientation)) {
-            titleView.image = UIImage(named: "navbar-landscape")
-            self.navigationItem.titleView = titleView
-        }
-        
-        if(UIDeviceOrientationIsPortrait(UIDevice.current.orientation)) {
-            titleView.image = UIImage(named: "navbar-portrait")
-            self.navigationItem.titleView = titleView
-        }
+        self.navigationItem.titleView = Utils.navbarRotate()
     }
 }
