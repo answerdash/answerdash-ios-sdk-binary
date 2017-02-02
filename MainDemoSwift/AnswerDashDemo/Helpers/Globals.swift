@@ -25,13 +25,21 @@ internal class Utils {
         titleView.contentMode = .center
         
         if(UIDeviceOrientationIsLandscape(UIDevice.current.orientation)) {
-            titleView.image = UIImage(named: "navbar-landscape")
+            if (UIScreen.main.bounds.width >= 1024) {
+                titleView.image = UIImage(named: "navbar-landscape-ipadpro")
+            } else {
+                titleView.image = UIImage(named: "navbar-landscape")
+            }
         }
         
         if(UIDeviceOrientationIsPortrait(UIDevice.current.orientation)) {
-            titleView.image = UIImage(named: "navbar-portrait")
+            if (UIScreen.main.bounds.width >= 1024) {
+                titleView.image = UIImage(named: "navbar-portrait-ipadpro")
+            } else {
+                titleView.image = UIImage(named: "navbar-portrait")
+            }
         }
-
+        
         return titleView
     }
 
